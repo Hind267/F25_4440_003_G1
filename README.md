@@ -1,5 +1,3 @@
-
-# CSIS 4440 – Mobile Cybersecurity  
 # F25_4440_003_G1
 # Team members:
 - Hind Abu Alamrain – Student ID: 300403234  – Email: abualamrainh@student.douglascollege.ca   
