@@ -1,0 +1,43 @@
+{
+  "request_id": "req-0001",
+  "session_id": "<REDACTED_SESSION_ID>",
+  "meta": {
+    "app": "com.instagram.android",
+    "capture_tool": "frida",
+    "script_name": "bypass-ssl.js"
+  },
+  "ts_request": "2025-11-06T05:12:30.740Z",
+  "ts_response": "2025-11-06T05:12:31.000Z",
+  "url": "https://i.instagram.com/api/v1/bloks/apps/com.bloks.www.caa.login.login_homepage/",
+  "method": "POST",
+  "request": {
+    "headers": {
+      "X-Ig-Device-Id": "<REDACTED_DEVICE_ID>",
+      "X-Ig-Family-Device-Id": "<REDACTED_DEVICE_ID>",
+      "X-Ig-Android-Id": "<REDACTED_ANDROID_ID>",
+      "X-Pigeon-Session-Id": "<REDACTED_SESSION_ID>",
+      "X-Pigeon-Rawclienttime": "1762405950.740",
+      "User-Agent": "Instagram 361.0.0.46.88 Android (31/12; 160dpi; 320x640; Google/google; emulator64_x86_64_arm64; en_US)",
+      "X-Fb-Connection-Type": "WIFI",
+      "X-Ig-Connection-Type": "WIFI"
+    }
+  },
+  "response": {
+    "status_code": 200,
+    "headers": {
+      "Date": "Thu, 06 Nov 2025 05:12:31 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Strict-Transport-Security": "max-age=31536000",
+      "X-Frame-Options": "SAMEORIGIN",
+      "X-Ig-Origin-Region": "<REDACTED_REGION>"
+    }
+  },
+  "artifacts": {
+    "endpoints": [
+      "api/v1/bloks/apps/com.bloks.www.caa.login.login_homepage" ],
+    "device_ids": {
+      "device_id": "<REDACTED_DEVICE_ID>",
+      "android_id": "<REDACTED_ANDROID_ID>",
+      "pigeon_session_id": "<REDACTED_SESSION_ID>" } },
+  "notes": "Captured via Frida (bypass-ssl.js) on emulator; no request body present for this request."
+}
